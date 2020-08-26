@@ -1,0 +1,86 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color:  #6BA1D0;
+    color: white;
+    font-family: helvetica;
+    font-size: 10px;
+    
+
+    
+    
+    
+}
+
+
+
+
+
+.abc {
+display: flex;
+/*justify-content: space-around;
+align-items: center;*/
+ margin: 50px;
+
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+    flex-grow: -1;
+    margin-right: 50px;
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+    flex-grow: -1;
+    margin-right: 50px;
+}
+
+.third {
+    display: flex;
+    flex-direction: column;
+    flex-grow: -1;
+}
+
+
+textarea, input, select {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+}
+input {
+    padding: 5px;
+
+}
+
+
+
+
+#country, #occupation, #talent {
+    border-radius: 5px;
+}
+
+
+label {
+    margin: 0px  0px 5px;
+}
+
+#biography, #affiliation, #comments {
+    margin: 0;
+    width: 260px;
+    height: 100px;
+}
+ 
+textarea:focus {
+    border-color: #41709B;
+    outline: none;
+    
+}
+
+input:focus {
+    border-color: #41709B;
+    outline: none;
+    
+}
